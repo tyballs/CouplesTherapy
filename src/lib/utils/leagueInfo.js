@@ -1,8 +1,8 @@
 /*   STEP 1   */
 export const leagueID = "1124455972035985408"; // your league ID
 export const leagueName = "Couples Therapy"; // your league name
-export const dues = 100; // (optional) used in template constitution page
-export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
+export const dues = 10; // (optional) used in template constitution page
+export const dynasty = false; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
@@ -76,9 +76,9 @@ export const managers = [
     // {
     //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID" : "986845473971486720",
-      "name": "Tyler",
-      "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Merriam", // (optional)
+      "name": "Rachel",
+      "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "location": "Lees Summit", // (optional)
       "bio": "Just a city boy, born and raised in south Detroit",
       // "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2002, // (optional) when did the manager start playing fantasy football
@@ -99,9 +99,9 @@ export const managers = [
           // {
     //   "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID" : "543179942897782784",
-      "name": "Tyler",
-      "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Merriam", // (optional)
+      "name": "Kyle",
+      "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "location": "Raytown", // (optional)
       "bio": "Just a city boy, born and raised in south Detroit",
       // "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2002, // (optional) when did the manager start playing fantasy football
@@ -122,9 +122,9 @@ export const managers = [
           // {
     //   "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID" : "641366714516520960",
-      "name": "Tyler",
-      "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Merriam", // (optional)
+      "name": "Derek",
+      "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "location": "Lees Summit", // (optional)
       "bio": "Just a city boy, born and raised in south Detroit",
       // "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2002, // (optional) when did the manager start playing fantasy football
@@ -145,9 +145,9 @@ export const managers = [
           // {
     //   "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID" : "453251076250923008",
-      "name": "Tyler",
-      "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Merriam", // (optional)
+      "name": "Brian",
+      "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "location": "Wentzville", // (optional)
       "bio": "Just a city boy, born and raised in south Detroit",
       // "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2002, // (optional) when did the manager start playing fantasy football
@@ -168,13 +168,13 @@ export const managers = [
           // {
     //   "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID" : "586038535694372864",
-      "name": "Tyler",
-      "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Merriam", // (optional)
+      "name": "Cameron",
+      "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "location": "Lees Summit", // (optional)
       "bio": "Just a city boy, born and raised in south Detroit",
       // "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2002, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "kc", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "favoriteTeam": "gb", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       // "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       // "rival": {
       //   name: "Rival", // Can be anything (usually your rival's name)
@@ -191,9 +191,9 @@ export const managers = [
           // {
     //   "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID" : "986370573020295168",
-      "name": "Tyler",
-      "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Merriam", // (optional)
+      "name": "Deanna",
+      "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "location": "Wentzville", // (optional)
       "bio": "Just a city boy, born and raised in south Detroit",
       // "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2002, // (optional) when did the manager start playing fantasy football
@@ -214,8 +214,8 @@ export const managers = [
           // {
     //   "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID" : "986408521086365696",
-      "name": "Tyler",
-      "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "name": "Kia",
+      "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Merriam", // (optional)
       "bio": "Just a city boy, born and raised in south Detroit",
       // "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -237,9 +237,9 @@ export const managers = [
           // {
     //   "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID" : "986349619749687296",
-      "name": "Tyler",
-      "tookOver": 2024, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Merriam", // (optional)
+      "name": "Kristen",
+      "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "location": "Raytown", // (optional)
       "bio": "Just a city boy, born and raised in south Detroit",
       // "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2002, // (optional) when did the manager start playing fantasy football
