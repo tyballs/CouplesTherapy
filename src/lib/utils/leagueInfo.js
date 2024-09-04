@@ -49,7 +49,6 @@ export const managers = [
       // "tradingScale": 10, // 1 - 10
       // "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
-  //2 - 1130941746952757248, 3 - 986845473971486720, 4 - 543179942897782784, 5 - 641366714516520960, 6- 453251076250923008, 7- 586038535694372864, 8- 986370573020295168, 9- 986408521086365696, 10-986349619749687296
     {
       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
         "managerID" : "1130941746952757248",
@@ -72,9 +71,9 @@ export const managers = [
     //   "philosophy": "Your fantasy team's philosophy",
     //   "tradingScale": 10, // 1 - 10
     //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    // },
-    // {
-    //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+    },
+    {
+      "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID" : "986845473971486720",
       "name": "Rachel",
       //"tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -96,8 +95,8 @@ export const managers = [
       // "tradingScale": 10, // 1 - 10
       // "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
-          // {
-    //   "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+          {
+      "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID" : "543179942897782784",
       "name": "Kyle",
      // "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -119,8 +118,8 @@ export const managers = [
       // "tradingScale": 10, // 1 - 10
       // "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
-          // {
-    //   "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+          {
+      "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID" : "641366714516520960",
       "name": "Derek",
      // "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -142,8 +141,8 @@ export const managers = [
       // "tradingScale": 10, // 1 - 10
       // "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
-          // {
-    //   "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+          {
+      "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID" : "453251076250923008",
       "name": "Brian",
      // "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -165,8 +164,8 @@ export const managers = [
       // "tradingScale": 10, // 1 - 10
       // "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
-          // {
-    //   "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+          {
+      "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID" : "586038535694372864",
       "name": "Cameron",
     //  "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -188,8 +187,8 @@ export const managers = [
       // "tradingScale": 10, // 1 - 10
       // "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
-          // {
-    //   "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+          {
+      "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID" : "986370573020295168",
       "name": "Deanna",
       //"tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -211,8 +210,8 @@ export const managers = [
       // "tradingScale": 10, // 1 - 10
       // "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
-          // {
-    //   "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+          {
+      "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID" : "986408521086365696",
       "name": "Kia",
       //"tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -234,8 +233,8 @@ export const managers = [
       // "tradingScale": 10, // 1 - 10
       // "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
-          // {
-    //   "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+          {
+      "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID" : "986349619749687296",
       "name": "Kristen",
       //"tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
