@@ -19,6 +19,15 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 // To omit an optional field, set it's value to null
 
+// <script>
+// 	import { getAvatarFromTeamManagers, getTeamNameFromTeamManagers, gotoManager, round } from "./utils/helperFunctions/universalFunctions";
+
+
+//     export let leagueTeamManagers, stat, label, xMin, xMax, secondStat, managerID, rosterID, color, year;
+
+//     $: user = managerID ? leagueTeamManagers.users[managerID] : null;
+// </script>
+
 export const managers = [
   {
       "managerID": "453251076250923008",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
